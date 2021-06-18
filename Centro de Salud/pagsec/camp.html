@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilos/camp.css" />
+    <title>Campañas de prevención</title>
+  </head>
+  <body>
+    <div class="padre">
+      <header class="header">
+        <div class="menu">
+          <img src="../img/logo.png"/>
+
+          <nav class="nav">
+            <a href="../pagsec/camp.html"> Registro </a>
+            <a href="../pagsec/ped.html"> Pruebas de COVID-19 </a>
+            <a href="../pagsec/atvac.html"> Atención de Vacunas </a>
+            <a href="../pagsec/medgral.html"> Especialidades </a>
+            <a href="../index.html"> Principal </a>
+          </nav>
+          
+      </header>
+      
+      <div class="texto-principal">
+        
+       
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+          <div class="articulos">
+            <article class="article">
+
+              <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="website" class="colocar_website"> Fecha de Nacimiento
+                  </label>
+                    <input type="date" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto"> Area a la que hara la cita:
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <select name="OS" class="form_control ">
+                    <option value="1">Medicina General </option> 
+                    <option value="2">Pediatria</option> 
+                    <option value="3">Neurología</option>
+                    <option value="4">Cardiología</option>
+                    <option value="5">Odontología</option>
+                    <option value="6">Oftalmología</option>
+                 </select>   </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje"> Alguna sugerencia para el mejoramiento de nuestra Institución
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p> Enviar</p></button>
+
+                       
+                
+          </form>
+
+            </article>
+            <article class="article">
+
+              <img src="../img/web.jpg"/>
+              <img src="../img/88.jpeg"/>
+            </article>
+          </div>
+
+          
+   
+
+      </div>
+      <div>
+        
+      </div>
+        
+      </section>
+      
+     
+
+      
+
+
+      <footer class="footer">
+        <nav class="pie">
+          <p>
+            Derechos reservados © | Joel Mauricio Ayala Marca | 2021
+          </p>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
